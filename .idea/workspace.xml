@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c641503d-2e01-4624-b26f-5f4a1c9b91b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Hangman/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman/Hangman.java" afterDir="false" />
-    </list>
+    <list default="true" id="c641503d-2e01-4624-b26f-5f4a1c9b91b4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +34,7 @@
       <recent name="C:\Users\madle\OneDrive\Dokumente\HTL Dornbirn 2. Klasse\SWP_Riedmann" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hangman">
+  <component name="RunManager" selected="Application.dicegame">
     <configuration name="CashMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bankomat_Beispiel.CashMachine" />
       <module name="SWP_Riedmann" />
@@ -98,9 +96,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dicegame" />
         <item itemvalue="Application.Hangman" />
         <item itemvalue="Application.lol" />
-        <item itemvalue="Application.dicegame" />
         <item itemvalue="Application.CashMachine" />
         <item itemvalue="Application.Main" />
       </list>
