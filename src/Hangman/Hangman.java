@@ -12,28 +12,32 @@ public class Hangman {
 
         Scanner scanner = new Scanner(System.in);
         String guess = scanner.next();
-        String[] marc = getrndmWord();
-        System.out.println(String.join("", marc));
+        String[] randi = getrndmWord();
+        String[] marci = guessing();
 
-
+        System.out.println(String.join("", marci));
 
     }
 
     public static String[] getrndmWord() {
 
+
         ArrayList<String[]> words = new ArrayList<String[]>();
         words.add(new String[]{"E", "i", "s", "e", "n", "b", "a", "h", "n"});
-        words.add(new String[]{"A", "u" ,"t", "o"});
+        words.add(new String[]{"A", "u", "t", "o"});
         words.add(new String[]{"D", "e", "l", "f", "i", "n"});
         words.add(new String[]{"A", "f", "f", "e"});
 
-
         String[] word = words.get((int) (Math.random() * words.size()));
-
 
         return word;
 
     }
 
 
+    public static String[] guessing() {
+
+    }
 }
+
+
