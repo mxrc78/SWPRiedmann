@@ -1,43 +1,52 @@
 package Hangman;
 
 import java.util.Scanner;
-import java.util.ArrayList;
 import java.util.Random;
 
 public class Hangman {
 
     public static void main(String[] args) {
 
-        System.out.println("Geben sie eine Zahl ein um das Spiel zu starten");
+        System.out.println("Wilkommen bei Hangman");
+
+        /**Declaring the words in an array and declaring scanner**/
 
         Scanner scanner = new Scanner(System.in);
-        String guess = scanner.next();
-        String[] randi = getrndmWord();
-        String[] marci = guessing();
+        Random random = new Random();
+        String [] words = {"Vorarlberg", "Tirol", "Steiermark", "Oberösterreich"};
 
-        System.out.println(String.join("", marci));
+
+        /** Declaring word of the hangman **/
+
+        String wholeWord = words[random.nextInt(words.length)];
+
+        char[] word = new char[wholeWord.length()];
+        int[] guess = new int[wholeWord.length()];
+
+        /**random word of the array in console**/
+
+        word = wholeWord.toCharArray();
+        System.out.println(wholeWord);
+
+
+        while (true) {
+            int i = 0;
+            for (int j = 0; j < wholeWord.length(); j++) {
+                if (guess[j] == 1) {
+                    System.out.println(word[j]);
+
+            }else
+                System.out.println("*");
+
+            }
+
+
+        }
+
+
+        }
+
 
     }
-
-    public static String[] getrndmWord() {
-
-
-        ArrayList<String[]> words = new ArrayList<String[]>();
-        words.add(new String[]{"E", "i", "s", "e", "n", "b", "a", "h", "n"});
-        words.add(new String[]{"A", "u", "t", "o"});
-        words.add(new String[]{"D", "e", "l", "f", "i", "n"});
-        words.add(new String[]{"A", "f", "f", "e"});
-
-        String[] word = words.get((int) (Math.random() * words.size()));
-
-        return word;
-
-    }
-
-
-    public static String[] guessing() {
-
-    }
-}
 
 
