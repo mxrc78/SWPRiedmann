@@ -1,28 +1,22 @@
 package StringHelper;
 
-import java.util.Scanner;
-
 public class IsPalindrome {
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        String word = scanner.next();
+        String word = "marc", reverseStr = "";
 
-        char[] marc = word.toCharArray();
-        char[] cram = new char[marc.length];
+        int Length = word.length();
 
-        String drow = "";
+        for (int i = (Length - 1); i >=0; --i) {
+            reverseStr = reverseStr + word.charAt(i);
+        }
 
-        for (int i = 0; i < marc.length - i; i--) {
-            cram[i]=marc[marc.length-i];
-            drow = cram.toString();
-            if (word == drow){
-                System.out.println("IsPalindrome");
-            }
-            else
-                System.out.println("IsNoPalindrome");
-
-
+        if (word.toLowerCase().equals(reverseStr.toLowerCase())) {
+            System.out.println(word + " is a Palindrome String.");
+        }
+        else {
+            System.out.println(word + " is not a Palindrome String.");
         }
     }
 }
