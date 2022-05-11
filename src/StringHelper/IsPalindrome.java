@@ -4,7 +4,7 @@ public class IsPalindrome {
 
     public static void main(String[] args) {
 
-        String word = "marc", reverseStr = "";
+        String word = "anna", reverseStr = "";
 
         int Length = word.length();
 
@@ -13,10 +13,10 @@ public class IsPalindrome {
         }
 
         if (word.toLowerCase().equals(reverseStr.toLowerCase())) {
-            System.out.println(word + " is a Palindrome String.");
+            System.out.println(word + " is a Palindrome.");
         }
         else {
-            System.out.println(word + " is not a Palindrome String.");
+            System.out.println(word + " is not a Palindrome.");
         }
     }
 }
