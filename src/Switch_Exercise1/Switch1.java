@@ -9,19 +9,19 @@ public class Switch1 {
 
         switch (randomnumber){
             case 5:
-                System.out.println("five");
+                System.out.println(randomnumber + (" is five"));
                 break;
             case 6:
-                System.out.println("six");
+                System.out.println(randomnumber + (" is six"));
                 break;
             case 7:
-                System.out.println("seven");
+                System.out.println(randomnumber + (" is seven"));
                 break;
             case 8:
-                System.out.println("eight");
+                System.out.println(randomnumber + (" is eight"));
                 break;
             case 9:
-                System.out.println("nine");
+                System.out.println(randomnumber + (" is nine"));
                 break;
         }
 
