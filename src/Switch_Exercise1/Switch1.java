@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Switch1 {
     public static void main(String[] args) {
-        Random random = new Random();
+       Random random = new Random();
         int randomnumber = random.nextInt(5)+5;
 
         switch (randomnumber){
@@ -24,6 +24,8 @@ public class Switch1 {
                 System.out.println(randomnumber + (" is nine"));
                 break;
         }
+
+
 
     }
 
