@@ -28,7 +28,7 @@ public class Hangman {
         word = wholeWord.toCharArray();
         System.out.println(wholeWord);
 
-
+/**
         while (true) {
             int i = 0;
             for (int j = 0; j < wholeWord.length(); j++) {
@@ -43,7 +43,7 @@ public class Hangman {
 
         }
 
-
+ **/
         }
 
 
