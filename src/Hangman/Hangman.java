@@ -28,6 +28,8 @@ public class Hangman {
         word = wholeWord.toCharArray();
         System.out.println(wholeWord);
 
+
+
 /**
         while (true) {
             int i = 0;
