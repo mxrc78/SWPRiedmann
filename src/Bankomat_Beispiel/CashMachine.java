@@ -18,7 +18,7 @@ public class CashMachine {
             if (selection == 1) {
                 System.out.println("Wieviel Geld möchten sie abheben?");
                 x = scanner.nextInt();
-                a -=x;
+                a = a-x;
                 System.out.println(a);
 
             }

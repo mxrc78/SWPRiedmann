@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c641503d-2e01-4624-b26f-5f4a1c9b91b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StringHelper/AmountOfLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Coffemachine/Coffemachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hangman/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman/Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bankomat_Beispiel/CashMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bankomat_Beispiel/CashMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +46,13 @@
       <recent name="C:\Users\madle\OneDrive\Dokumente\HTL Dornbirn 2. Klasse\SWP_Riedmann" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AmountOfLetter">
-    <configuration name="AmountOfLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringHelper.AmountOfLetter" />
+  <component name="RunManager" selected="Application.Coffemachine">
+    <configuration name="CashMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bankomat_Beispiel.CashMachine" />
       <module name="SWP_Riedmann" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringHelper.*" />
+          <option name="PATTERN" value="Bankomat_Beispiel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="whileloop.GFG" />
+    <configuration name="Coffemachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Coffemachine.Coffemachine" />
       <module name="SWP_Riedmann" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="whileloop.*" />
+          <option name="PATTERN" value="Coffemachine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,25 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hangman.Hangman" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="random_number.Main" />
       <module name="SWP_Riedmann" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hangman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="countLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringHelper.countLetters" />
-      <module name="SWP_Riedmann" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringHelper.*" />
+          <option name="PATTERN" value="random_number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="whileloop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="whileloop.whileloop" />
+      <module name="SWP_Riedmann" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whileloop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AmountOfLetter" />
-        <item itemvalue="Application.countLetters" />
-        <item itemvalue="Application.Hangman" />
-        <item itemvalue="Application.GFG" />
+        <item itemvalue="Application.Coffemachine" />
+        <item itemvalue="Application.CashMachine" />
+        <item itemvalue="Application.whileloop" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.forloop" />
       </list>
     </recent_temporary>
